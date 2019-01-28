@@ -53,7 +53,7 @@ and runs search, powerful access control for each plan, run and case, and XML-RP
 
 官方手册请参见[Kiwi TCMS手册](https://kiwitcms.readthedocs.io/en/latest/index.html)
 
-安装前置条件：
+*安装前置条件：*
 
 1. 安装git
 2. 安装python3
@@ -66,32 +66,32 @@ centos请用下列命令
 ubuntu请用
 > sudo apt install gcc python-devel mariadb-devel libxml2-devel libxslt-devel graphviz
 
-简要安装启动步骤如下：
+*简要安装启动步骤如下：*
 
 1. 先拉取项目代码
-> git clone https://github.com/small99/Kiwi.git
+`git clone https://github.com/small99/Kiwi.git`
 
 2. 先升级下你的pip
-> python -m pip install --upgrade pip
+`python -m pip install --upgrade pip`
 
 3. 安装Kiwi TCMS依赖
-> pip install -r requirements/mariadb.txt
-> pip install -r requirements/devel.txt
+`pip install -r requirements/mariadb.txt`
+`pip install -r requirements/devel.txt`
 
 4. 安装PatterFly,需要先按照npm
-> npm install
+`npm install`
 
 5. build文字包
-> python manage.py compilemessages
+`python manage.py compilemessages`
 
 6. 启动Kiwi TCMS
-> python  manage.py runserver
+`python  manage.py runserver`
 
-后续开发步骤：
+*后续开发步骤：*
 
-1. 集成git/SVN版本管理
+`1. 集成git/SVN版本管理`
 
-2. 集成RobotFramework
+`2. 集成RobotFramework`
 
 本版本由苦叶子开发维护，欢迎扫码加好友交流
 
