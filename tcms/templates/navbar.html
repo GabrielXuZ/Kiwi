@@ -25,37 +25,37 @@
                     <ul class="dropdown-menu">
                     {% if user.is_authenticated %}
                         <li>
-                            <a href="{% url "testruns-search" %}?default_tester={{ user.username }}" target="_parent">My Test Runs</a>
+                            <a href="{% url "testruns-search" %}?default_tester={{ user.username }}" target="_parent">我的测试运行</a>
                         </li>
 
                         <li>
-                            <a href="{% url "plans-search" %}?author__username__startswith={{ user.username }}" target="_parent">My Test Plans</a>
-                        </li>
-
-                        <li class="divider"></li>
-
-                        <li>
-                            <a href="{% url "tcms-profile" user.username %}" target="_parent">My profile</a>
-                        </li>
-
-                        <li>
-                            <a href="{% url "admin:password_change" %}" target="_parent">Change password</a>
+                            <a href="{% url "plans-search" %}?author__username__startswith={{ user.username }}" target="_parent">我的测试计划</a>
                         </li>
 
                         <li class="divider"></li>
 
                         <li>
-                            <a href="{% url "tcms-logout" %}" target="_parent">Logout</a>
+                            <a href="{% url "tcms-profile" user.username %}" target="_parent">个人配置</a>
+                        </li>
+
+                        <li>
+                            <a href="{% url "admin:password_change" %}" target="_parent">修改密码</a>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li>
+                            <a href="{% url "tcms-logout" %}" target="_parent">退出</a>
                         </li>
                     {% else %}
                         <li>
-                            <a href="{% url "tcms-login" %}" target="_parent">Login</a>
+                            <a href="{% url "tcms-login" %}" target="_parent">登录</a>
                         </li>
 
                         <li class="divider"></li>
 
                         <li>
-                            <a href="{% url "tcms-register" %}" target="_parent">Register</a>
+                            <a href="{% url "tcms-register" %}" target="_parent">注册</a>
                         </li>
                     {% endif %}
                     </ul>

@@ -182,7 +182,7 @@ USE_L10N = True
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'zh_CN'
 
 LOCALE_PATHS = [
     os.path.join(TCMS_ROOT_PATH, 'locale'),
