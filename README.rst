@@ -81,7 +81,7 @@ ubuntu请用
 4. 安装PatterFly,需要先按照npm
  | npm install
 
-5. build文字包
+5. build语言包
  | python manage.py compilemessages
 
 6. 启动Kiwi TCMS
