@@ -13,5 +13,5 @@ docs/guide/target
 docs/target/
 .idea/
 .cache/
-node_modules/
+#node_modules/
 package-lock.json
