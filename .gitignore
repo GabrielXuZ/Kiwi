@@ -1,4 +1,4 @@
-*.mo
+#*.mo
 *.pyc
 *.swp
 *egg*/
