@@ -95,7 +95,7 @@ ubuntu请用
 
 本版本由苦叶子开发维护，欢迎扫码加好友交流
 
-![二维码](liyimin1912.jpeg)
+![二维码](./liyimin1912.jpeg)
 
 Brief history
 -------------
